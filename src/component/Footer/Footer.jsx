@@ -1,13 +1,13 @@
 const Footer = () => {
     const footerStyle = {
-    height: '10vh',
+    height: '8vh',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center'
   };
   return (
     <div>
-        <footer className="bg-dark text-white fixed-bottom" style={footerStyle}>
+        <footer className="bg-dark text-white " style={footerStyle}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
